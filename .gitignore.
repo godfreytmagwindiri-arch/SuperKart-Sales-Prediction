@@ -1,5 +1,50 @@
-__pycache__/
-.ipynb_checkpoints/
-.venv/
+# 1. Environment variables and secrets
 .env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 2. Python cache
+__pycache__/
 *.pyc
+*.pyo
+
+# 3. Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 4. Google Colab temporary files
+/content/
+sample_data/
+drive/MyDrive/
+
+# 5. Virtual environments
+venv/
+.venv/
+env/
+
+# 6. Private datasets
+data/private/
+
+# 7. Local credentials
+credentials.json
+secrets.json
+client_secret*.json
+
+# 8. Python testing and development
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# 9. Operating system files
+.DS_Store
+Thumbs.db
+
+# 10. IDE settings
+.vscode/
+.idea/
+
+# 11. Logs and temporary files
+*.log
+*.tmp
+*.bak
