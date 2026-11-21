@@ -84,8 +84,20 @@ Deployment instructions and application links will be added when the application
 - Joblib
 - Jupyter Notebook
 - Git and GitHub
+  
+## 12. Security and Data Privacy
 
-## 12. Future Improvements
+This project follows secure software development and responsible data management practices.
+
+- **Access Control:** GitHub access is managed through appropriately scoped Personal Access Tokens (PATs) or SSH authentication.
+- **Credential Protection:** Passwords, API keys, access tokens, and other sensitive credentials must not be included in source code or committed to GitHub.
+- **Environment Variables:** Application secrets should be managed through environment variables or a secure secrets manager.
+- **Data Confidentiality:** Confidential datasets and personally identifiable information must not be uploaded to the public repository.
+- **Git Exclusions:** The `.gitignore` file is used to exclude local credentials, temporary files, private datasets, and virtual environments.
+- **Model Security:** Serialized machine-learning models should be loaded only from trusted sources.
+- **Responsible Deployment:** Production deployments should implement appropriate access controls, validation, monitoring, and secure configuration.
+
+## 13. Future Improvements
 - Deploy an interactive sales prediction application.
 - Introduce model monitoring.
 - Automate retraining when new data becomes available.
