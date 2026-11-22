@@ -3,7 +3,7 @@
 ## 1. Project Overview
 This project develops a machine-learning solution to predict product-level store sales using historical SuperKart data.
 
-The project applies exploratory data analysis, preprocessing, feature engineering, regression modeling, hyperparameter optimization, and model evaluation.
+The project applies exploratory data analysis, preprocessing, feature engineering, regression modelling, hyperparameter optimization, and model evaluation.
 
 ## 2. Business Objective
 The primary objective is to predict product sales and support:
